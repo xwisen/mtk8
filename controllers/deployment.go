@@ -6,7 +6,7 @@
 //        Author: xwisen 1031649164@qq.com
 //   Description: ---
 //        Create: 2017-03-07 10:36:33
-// Last Modified: 2017-03-08 17:48:43
+// Last Modified: 2017-03-09 08:44:15
 //***********************************************
 
 package controllers
@@ -15,7 +15,8 @@ import (
 	"encoding/json"
 	"github.com/astaxie/beego/logs"
 	"github.com/xwisen/mtk8/client"
-	metav1 "k8s.io/client-go/pkg/api/v1"
+	//metav1 "k8s.io/client-go/pkg/api/v1"
+	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	extensionsV1beta1 "k8s.io/client-go/pkg/apis/extensions/v1beta1"
 )
 
