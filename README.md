@@ -7,7 +7,7 @@
 * models 暂时没用到
 * routers 目录存放路由器,一般一个路由文件就好
 ## 导入包版本信息
-client-go: branch v2.0
-beego: tag v1.8.0
-其他: branch master
+* client-go: branch v2.0
+* beego: tag v1.8.0
+* 其他: branch master
 
