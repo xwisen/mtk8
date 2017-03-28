@@ -6,7 +6,7 @@
 //        Author: xwisen 1031649164@qq.com
 //   Description: ---
 //        Create: 2017-03-08 13:23:03
-// Last Modified: 2017-03-08 13:45:20
+// Last Modified: 2017-03-28 10:51:33
 //***********************************************
 
 package client
@@ -21,13 +21,13 @@ import (
 
 func NewK8sClient() *kubernetes.Clientset {
 	config := rest.Config{
-		Host:     beego.AppConfig.String("k8s_ip") + ":" + beego.AppConfig.String("k8s_port"),
+		Host:     "http://" + beego.AppConfig.String("k8s_ip") + ":" + beego.AppConfig.String("k8s_port"),
 		Insecure: false,
 	}
-	logs.Info("k8s info is: %s, Insecure is :%v", config.Host, config.Insecure)
+	logs.Info("k8s info is: %s, Insecure is: %v", config.Host, config.Insecure)
 	clientset, err := kubernetes.NewForConfig(&config)
 	if err != nil {
-		logs.Error("init k8s clientset failed")
+		logs.Error("init k8s clientset failed, err is :%v", err)
 		os.Exit(1)
 	}
 	return clientset
