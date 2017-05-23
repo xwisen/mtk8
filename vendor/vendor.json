@@ -17,6 +17,12 @@
 			"revisionTime": "2017-05-13T17:20:12Z"
 		},
 		{
+			"checksumSHA1": "DYv6Q1+VfnUVxMwvk5IshAClLvw=",
+			"path": "github.com/Sirupsen/logrus",
+			"revision": "5e5dc898656f695e2a086b8e12559febbfc01562",
+			"revisionTime": "2017-05-15T10:45:16Z"
+		},
+		{
 			"checksumSHA1": "2otmKRoQSKacroMbiWkrnUCr0JI=",
 			"path": "github.com/astaxie/beego",
 			"revision": "323a1c4214101331a4b71922c23d19b7409ac71f",
@@ -63,6 +69,54 @@
 			"path": "github.com/astaxie/beego/utils",
 			"revision": "323a1c4214101331a4b71922c23d19b7409ac71f",
 			"revisionTime": "2017-03-06T13:59:04Z"
+		},
+		{
+			"checksumSHA1": "rqmhhAKJMYGv8DGOcfOJ0obxBto=",
+			"path": "github.com/coreos/etcd/client",
+			"revision": "f75e33326406a4f05bd2a92ddf214ec4018e5b0b",
+			"revisionTime": "2017-05-22T19:19:16Z"
+		},
+		{
+			"checksumSHA1": "mKIXx1kDwmVmdIpZ3pJtRBuUKso=",
+			"path": "github.com/coreos/etcd/pkg/pathutil",
+			"revision": "f75e33326406a4f05bd2a92ddf214ec4018e5b0b",
+			"revisionTime": "2017-05-22T19:19:16Z"
+		},
+		{
+			"checksumSHA1": "in4X4M2FFl6+eAXgxdxxSOZi1Vw=",
+			"path": "github.com/coreos/etcd/pkg/srv",
+			"revision": "f75e33326406a4f05bd2a92ddf214ec4018e5b0b",
+			"revisionTime": "2017-05-22T19:19:16Z"
+		},
+		{
+			"checksumSHA1": "rMyIh9PsSvPs6Yd+YgKITQzQJx8=",
+			"path": "github.com/coreos/etcd/pkg/tlsutil",
+			"revision": "f75e33326406a4f05bd2a92ddf214ec4018e5b0b",
+			"revisionTime": "2017-05-22T19:19:16Z"
+		},
+		{
+			"checksumSHA1": "SLSy62n6TFM8qm1ZAzkzAGy3sgI=",
+			"path": "github.com/coreos/etcd/pkg/transport",
+			"revision": "f75e33326406a4f05bd2a92ddf214ec4018e5b0b",
+			"revisionTime": "2017-05-22T19:19:16Z"
+		},
+		{
+			"checksumSHA1": "gx1gJIMU6T0UNQ0bPZ/drQ8cpCI=",
+			"path": "github.com/coreos/etcd/pkg/types",
+			"revision": "f75e33326406a4f05bd2a92ddf214ec4018e5b0b",
+			"revisionTime": "2017-05-22T19:19:16Z"
+		},
+		{
+			"checksumSHA1": "MgYezsE5iTHxzTT5dnacBeuJBHY=",
+			"path": "github.com/coreos/etcd/version",
+			"revision": "f75e33326406a4f05bd2a92ddf214ec4018e5b0b",
+			"revisionTime": "2017-05-22T19:19:16Z"
+		},
+		{
+			"checksumSHA1": "nux9tCYmTA5bOCVODF3Rqzcu60U=",
+			"path": "github.com/coreos/go-semver/semver",
+			"revision": "5e3acbb5668c4c3deb4842615c4098eb61fb6b1e",
+			"revisionTime": "2017-02-09T20:17:57Z"
 		},
 		{
 			"checksumSHA1": "5rPfda8jFccr3A6heL+JAmi9K9g=",
@@ -175,6 +229,12 @@
 			"revisionTime": "2017-05-17T17:25:19Z"
 		},
 		{
+			"checksumSHA1": "gWlw0l2wMBLhmejJCTr/Zywqyk8=",
+			"path": "github.com/kelseyhightower/envconfig",
+			"revision": "b6fde1625d631a48340817849a547164f395d9eb",
+			"revisionTime": "2017-04-24T16:37:37Z"
+		},
+		{
 			"checksumSHA1": "urY45++NYCue4nh4k8OjUFnIGfU=",
 			"origin": "k8s.io/apimachinery/vendor/github.com/mailru/easyjson/buffer",
 			"path": "github.com/mailru/easyjson/buffer",
@@ -196,6 +256,144 @@
 			"revisionTime": "2017-05-13T17:20:12Z"
 		},
 		{
+			"checksumSHA1": "ZV0cepCqRjJ1lxmsSgqCqn5iO+I=",
+			"path": "github.com/projectcalico/go-json/json",
+			"revision": "6219dc7339ba20ee4c57df0a8baac62317d19cb1",
+			"revisionTime": "2016-11-28T00:41:56Z"
+		},
+		{
+			"checksumSHA1": "0sk3Ro303zla8whOfq5PAY342Oc=",
+			"path": "github.com/projectcalico/go-yaml",
+			"revision": "955bc3e451ef0c9df8b9113bf2e341139cdafab2",
+			"revisionTime": "2016-12-01T18:36:16Z"
+		},
+		{
+			"checksumSHA1": "pZzXpqbupkEPnhWkYArztG85tuE=",
+			"path": "github.com/projectcalico/go-yaml-wrapper",
+			"revision": "598e54215bee41a19677faa4f0c32acd2a87eb56",
+			"revisionTime": "2016-11-27T22:05:27Z"
+		},
+		{
+			"checksumSHA1": "1VrlETliaNAAYLl8Bj33kMTLH4E=",
+			"path": "github.com/projectcalico/libcalico-go/lib/api",
+			"revision": "aafc4f711b0f74563cd718833b5c3631e349f8c7",
+			"revisionTime": "2017-05-11T18:27:15Z"
+		},
+		{
+			"checksumSHA1": "Rneqmjb1cBTR1nCuaQG4R4sn8bw=",
+			"path": "github.com/projectcalico/libcalico-go/lib/api/unversioned",
+			"revision": "aafc4f711b0f74563cd718833b5c3631e349f8c7",
+			"revisionTime": "2017-05-11T18:27:15Z"
+		},
+		{
+			"checksumSHA1": "qPXjY1dJl18kwR/HncGLpVAiG1Q=",
+			"path": "github.com/projectcalico/libcalico-go/lib/backend",
+			"revision": "aafc4f711b0f74563cd718833b5c3631e349f8c7",
+			"revisionTime": "2017-05-11T18:27:15Z"
+		},
+		{
+			"checksumSHA1": "1DU2wSC+kS1E1SWtN8GQzQHKdsI=",
+			"path": "github.com/projectcalico/libcalico-go/lib/backend/api",
+			"revision": "aafc4f711b0f74563cd718833b5c3631e349f8c7",
+			"revisionTime": "2017-05-11T18:27:15Z"
+		},
+		{
+			"checksumSHA1": "0KCWA1I9uOw+JA3OgKUAautZ3MM=",
+			"path": "github.com/projectcalico/libcalico-go/lib/backend/compat",
+			"revision": "aafc4f711b0f74563cd718833b5c3631e349f8c7",
+			"revisionTime": "2017-05-11T18:27:15Z"
+		},
+		{
+			"checksumSHA1": "37sdePkJieq+YpnR5356aIIV1RI=",
+			"path": "github.com/projectcalico/libcalico-go/lib/backend/etcd",
+			"revision": "aafc4f711b0f74563cd718833b5c3631e349f8c7",
+			"revisionTime": "2017-05-11T18:27:15Z"
+		},
+		{
+			"checksumSHA1": "VXfVNqUj0gWQ4Sff0ocRM+WMJQA=",
+			"path": "github.com/projectcalico/libcalico-go/lib/backend/model",
+			"revision": "aafc4f711b0f74563cd718833b5c3631e349f8c7",
+			"revisionTime": "2017-05-11T18:27:15Z"
+		},
+		{
+			"checksumSHA1": "ZWBAim+xhS2kLVe+CgFu0yrEVSM=",
+			"path": "github.com/projectcalico/libcalico-go/lib/client",
+			"revision": "aafc4f711b0f74563cd718833b5c3631e349f8c7",
+			"revisionTime": "2017-05-11T18:27:15Z"
+		},
+		{
+			"checksumSHA1": "YAMXVYOy3ibvjVNbeuJRtiVi0y0=",
+			"path": "github.com/projectcalico/libcalico-go/lib/errors",
+			"revision": "aafc4f711b0f74563cd718833b5c3631e349f8c7",
+			"revisionTime": "2017-05-11T18:27:15Z"
+		},
+		{
+			"checksumSHA1": "su2Ri8gIHb+4h2r5zAiL82BBWeg=",
+			"path": "github.com/projectcalico/libcalico-go/lib/hash",
+			"revision": "aafc4f711b0f74563cd718833b5c3631e349f8c7",
+			"revisionTime": "2017-05-11T18:27:15Z"
+		},
+		{
+			"checksumSHA1": "IA7hsoE98T6vwDruGqVY6f7TyrE=",
+			"path": "github.com/projectcalico/libcalico-go/lib/hwm",
+			"revision": "aafc4f711b0f74563cd718833b5c3631e349f8c7",
+			"revisionTime": "2017-05-11T18:27:15Z"
+		},
+		{
+			"checksumSHA1": "1bRqe58JKD/RT1WnYEe1AgtSfBk=",
+			"path": "github.com/projectcalico/libcalico-go/lib/ipip",
+			"revision": "aafc4f711b0f74563cd718833b5c3631e349f8c7",
+			"revisionTime": "2017-05-11T18:27:15Z"
+		},
+		{
+			"checksumSHA1": "qaGJh3VwjTK/n4Cm2ao3d3dKLf8=",
+			"path": "github.com/projectcalico/libcalico-go/lib/net",
+			"revision": "aafc4f711b0f74563cd718833b5c3631e349f8c7",
+			"revisionTime": "2017-05-11T18:27:15Z"
+		},
+		{
+			"checksumSHA1": "RsQ9l/MLyuhj2ds7R66hYdVpqKA=",
+			"path": "github.com/projectcalico/libcalico-go/lib/numorstring",
+			"revision": "aafc4f711b0f74563cd718833b5c3631e349f8c7",
+			"revisionTime": "2017-05-11T18:27:15Z"
+		},
+		{
+			"checksumSHA1": "NKdrZ5KdUqS0lXnBL/ZfjhDrOis=",
+			"path": "github.com/projectcalico/libcalico-go/lib/scope",
+			"revision": "aafc4f711b0f74563cd718833b5c3631e349f8c7",
+			"revisionTime": "2017-05-11T18:27:15Z"
+		},
+		{
+			"checksumSHA1": "S7xCgADp7tqlmGZlhL9tt2HUd5E=",
+			"path": "github.com/projectcalico/libcalico-go/lib/selector",
+			"revision": "aafc4f711b0f74563cd718833b5c3631e349f8c7",
+			"revisionTime": "2017-05-11T18:27:15Z"
+		},
+		{
+			"checksumSHA1": "wzK1QTkNhUa9B7AbKqI4zgiqHm4=",
+			"path": "github.com/projectcalico/libcalico-go/lib/selector/parser",
+			"revision": "aafc4f711b0f74563cd718833b5c3631e349f8c7",
+			"revisionTime": "2017-05-11T18:27:15Z"
+		},
+		{
+			"checksumSHA1": "Ul6ZLi7EkXvtH/Hbgnf8m4d1SH0=",
+			"path": "github.com/projectcalico/libcalico-go/lib/selector/tokenizer",
+			"revision": "aafc4f711b0f74563cd718833b5c3631e349f8c7",
+			"revisionTime": "2017-05-11T18:27:15Z"
+		},
+		{
+			"checksumSHA1": "1cYJZUe+2jJl+MsmhM2hZPB4JqE=",
+			"path": "github.com/projectcalico/libcalico-go/lib/validator",
+			"revision": "aafc4f711b0f74563cd718833b5c3631e349f8c7",
+			"revisionTime": "2017-05-11T18:27:15Z"
+		},
+		{
+			"checksumSHA1": "zmC8/3V4ls53DJlNTKDZwPSC/dA=",
+			"path": "github.com/satori/go.uuid",
+			"revision": "5bf94b69c6b68ee1b541973bb8e1144db23a194b",
+			"revisionTime": "2017-03-21T23:07:31Z"
+		},
+		{
 			"checksumSHA1": "5KvHyB1CImtwZT3fwNkNUlc8R0k=",
 			"origin": "k8s.io/apimachinery/vendor/github.com/spf13/pflag",
 			"path": "github.com/spf13/pflag",
@@ -208,6 +406,12 @@
 			"path": "github.com/ugorji/go/codec",
 			"revision": "98c470feb44de033f26efb4af98a19f804ffffdc",
 			"revisionTime": "2017-05-13T17:20:12Z"
+		},
+		{
+			"checksumSHA1": "9jjO5GjLa0XF/nfWihF02RoH4qc=",
+			"path": "golang.org/x/net/context",
+			"revision": "e90d6d0afc4c315a0d87a568ae68577cc15149a0",
+			"revisionTime": "2016-07-15T16:59:30Z"
 		},
 		{
 			"checksumSHA1": "SPYGC6DQrH9jICccUsOfbvvhB4g=",
@@ -236,6 +440,12 @@
 			"path": "golang.org/x/net/lex/httplex",
 			"revision": "98c470feb44de033f26efb4af98a19f804ffffdc",
 			"revisionTime": "2017-05-13T17:20:12Z"
+		},
+		{
+			"checksumSHA1": "vu7njn8O4vhFtmgGWntwjA2NAbk=",
+			"path": "golang.org/x/sys/unix",
+			"revision": "8f0908ab3b2457e2e15403d3697c9ef5cb4b57a9",
+			"revisionTime": "2016-09-14T20:33:16Z"
 		},
 		{
 			"checksumSHA1": "QQpKbWuqvhmxVr/hfEYdWzzcXRM=",
@@ -308,11 +518,23 @@
 			"revisionTime": "2017-05-13T17:20:12Z"
 		},
 		{
+			"checksumSHA1": "39V1idWER42Lmcmg2Uy40wMzOlo=",
+			"path": "gopkg.in/go-playground/validator.v8",
+			"revision": "5f57d2222ad794d0dffb07e664ea05e2ee07d60c",
+			"revisionTime": "2016-07-18T13:41:25Z"
+		},
+		{
 			"checksumSHA1": "pfQwQtWlFezJq0Viroa/L+v+yDM=",
 			"origin": "k8s.io/apimachinery/vendor/gopkg.in/inf.v0",
 			"path": "gopkg.in/inf.v0",
 			"revision": "98c470feb44de033f26efb4af98a19f804ffffdc",
 			"revisionTime": "2017-05-13T17:20:12Z"
+		},
+		{
+			"checksumSHA1": "F9xsQ9Bq8iDC7CvbKGtZ9C94dyk=",
+			"path": "gopkg.in/tchap/go-patricia.v2/patricia",
+			"revision": "666120de432aea38ab06bd5c818f04f4129882c9",
+			"revisionTime": "2016-08-11T10:25:35Z"
 		},
 		{
 			"checksumSHA1": "Hs7pfHDSvTNtnRogAAziW2Lki3M=",

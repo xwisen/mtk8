@@ -9,5 +9,6 @@
 ## 导入包版本信息
 * client-go: branch v3.0
 * beego: tag v1.8.0
+* libcalico-go v1.2.2 [libcalico-go与mtk8使用不同版本的client-go,目前处理方式为删除k8s作为libclient-go后端存储]
 * 其他: branch master
 
