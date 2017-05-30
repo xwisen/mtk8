@@ -6,7 +6,7 @@
 //        Author: xwisen 1031649164@qq.com
 //   Description: ---
 //        Create: 2017-03-07 10:24:38
-// Last Modified: 2017-05-23 16:39:05
+// Last Modified: 2017-05-30 11:21:32
 //***********************************************
 
 package routers
@@ -24,5 +24,5 @@ func init() {
 	beego.Router("/api/network", &controllers.NetWorkController{}, "get:ListNetwork")
 	beego.Router("/api/network", &controllers.NetWorkController{}, "post:CreateNetwork")
 	beego.Router("/api/network", &controllers.NetWorkController{}, "delete:DeleteNetwork")
-	beego.Router("/api/network", &controllers.NetWorkController{}, "patch:PatchNetwork")
+	beego.Router("/api/network", &controllers.NetWorkController{}, "patch:PatchNetwork;put:PatchNetwork")
 }
